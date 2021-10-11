@@ -7,7 +7,7 @@ const CardStyles = StyleSheet.create({
     marginBottom: 20,
     borderRadius: 15,
     overflow: 'hidden',
-    marginRight: Dimensions.get('window').width - 344 ,
+    marginRight: Dimensions.get('window').width - 344,
     justifyContent: 'flex-end',
   },
   title: {

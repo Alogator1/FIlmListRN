@@ -1,9 +1,8 @@
 import React, {useEffect} from 'react';
-import {FlatList, SafeAreaView, ScrollView, Text, View} from 'react-native';
+import {FlatList, SafeAreaView, Text, View} from 'react-native';
 import Card from '../../components/Card/card';
 import {ScreenListStyles} from './screen-list.style';
-import store from '../../store/store';
-import {Provider, useDispatch, useSelector} from 'react-redux';
+import {useDispatch, useSelector} from 'react-redux';
 import {loadFilms} from '../../store/screensSlice';
 import {Film} from '../../models/films';
 import SingleFilm from '../SingleFilm/single-film.component';

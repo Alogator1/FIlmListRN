@@ -19,7 +19,6 @@ export const counterSlice = createSlice({
       state.openedFilm = null as Film;
     },
     loadSimilar: (state, action) => {
-      console.log(action?.payload);
       state.similar = action?.payload;
     },
   },
