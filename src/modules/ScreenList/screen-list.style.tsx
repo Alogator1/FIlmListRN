@@ -1,4 +1,4 @@
-import {Dimensions, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 const ScreenListStyles = StyleSheet.create({
   wrapper: {
@@ -15,7 +15,7 @@ const ScreenListStyles = StyleSheet.create({
   scrollView: {
     paddingHorizontal: 32,
     flexDirection: 'row',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
   },
 });
 

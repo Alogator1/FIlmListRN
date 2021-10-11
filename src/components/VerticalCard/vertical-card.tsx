@@ -25,7 +25,7 @@ const VerticalCard: React.FC<VerticalCardProps> = ({film}) => {
   return (
       <View onTouchEnd={setOpenedFilm}>
         <Image style={VerticalCardStyles.wrapper} source={{uri: film.backdrop_path ? `https://image.tmdb.org/t/p/original${film?.backdrop_path}` : 'https://i.ytimg.com/vi/317jz-PU7Mg/maxresdefault.jpg'}} />
-        
+
         <Text style={VerticalCardStyles.title}>{film.title}</Text>
     </View>
   );
